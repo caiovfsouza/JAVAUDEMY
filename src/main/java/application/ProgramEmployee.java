@@ -1,6 +1,6 @@
 package application;
 
-import entities.Employee;
+import entities.employee.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class ProgramEmployee {
 
         for (int i = 0; i < n; i++) {
 
-            System.out.println("entities.Employee #" + (i + 1) + ":");
+            System.out.println("entities.employee.Employee #" + (i + 1) + ":");
             System.out.print("Id: ");
             int id = sc.nextInt();
             while (hasId(listEmployee , id)) {

@@ -1,4 +1,4 @@
-package entities;
+package entities.worker;
 
 public class Department {
 
